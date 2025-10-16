@@ -1,47 +1,49 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Praktikum Pemrograman HTML</title>
 </head>
 <body>
 
-<table border="1" cellspacing="0" cellpadding="0" width="100%">
-  <tr bgcolor="#1E4E9E" style="color:white">
-    <td align="center" width="20%">
-      <img src="Logo Muhtiga.png" width="80">
-    </td>
-    <td align="center">
-      <b>SMK MUHAMMADIYAH 3 TANGERANG SELATAN</b><br>
-      Program Keahlian Rekayasa Perangkat Lunak<br>
-      <b>Modul 0.1 - Praktikum Pemrograman HTML (HTML, PHP, dan CSS)</b>
-    </td>
-  </tr>
-</table>
+<div align="center" style="width:100%; border:1px solid black;">
+  <div style="background-color:#1E4E9E; color:white; padding:5px;">
+    <table width="100%">
+      <tr>
+        <td width="80" align="center">
+          <img src="logo.png" width="60">
+        </td>
+        <td align="center">
+          <b style="font-size:18px;">SMK MUHAMMADIYAH 3 TANGERANG SELATAN</b><br>
+          <small>Program Keahlian Rekayasa Perangkat Lunak</small><br>
+          <small>Modul 0.1 - Praktikum Pemrograman HTML (HTML, PHP, dan CSS)</small>
+        </td>
+      </tr>
+    </table>
+  </div>
 
-<table border="1" cellspacing="0" cellpadding="2" width="100%">
-  <tr>
-    <td align="center">
-      <b>Praktikum Pemrograman HTML</b><br>
-      <b>HTML, PHP dan CSS</b><br><br>
-      Disusun oleh: <b>Kevin Permana, S.Kom</b>
-    </td>
-  </tr>
-</table>
+  <div align="center" style="background-color:white; padding:3px;">
+    <b>Praktikum Pemrograman HTML</b><br>
+    <b>HTML, PHP dan CSS</b><br>
+    Disusun oleh: <b>Kevin Permana, S.Kom</b>
+  </div>
+</div>
 
-<p><b>1. Tujuan</b></p>
+<hr>
+
+<h3>1. Tujuan</h3>
 <ul>
   <li>Peserta didik dapat memahami dasar pemrograman server-side menggunakan HTML.</li>
   <li>Peserta didik menguasai sintaks-sintaks dasar HTML.</li>
   <li>Peserta didik mampu menyelesaikan permasalahan sederhana menggunakan HTML.</li>
 </ul>
 
-<p><b>2. Dasar Teori</b></p>
+<h3>2. Dasar Teori</h3>
 <p>HTML (HyperText Markup Language) merupakan bahasa markup untuk menyusun halaman web yang dapat dibaca oleh browser.</p>
 <p>Browser seperti Google Chrome atau Firefox akan menerjemahkan kode HTML menjadi tampilan visual halaman web.</p>
 
-<p><b>Beberapa Elemen HTML yang Sering Digunakan:</b></p>
-<table border="1" cellspacing="0" cellpadding="3" width="80%">
-  <tr>
+<b>Beberapa Elemen HTML yang Sering Digunakan:</b>
+<table border="1" width="100%" cellspacing="0" cellpadding="3">
+  <tr bgcolor="#eaeaea">
     <th>Tag</th>
     <th>Fungsi</th>
   </tr>
@@ -55,30 +57,40 @@
   <tr><td>&lt;i&gt;</td><td>Teks miring</td></tr>
 </table>
 
-<p><b>3. Langkah Percobaan</b></p>
-<p><b>3.1 Heading HTML</b></p>
+<h3>3. Langkah Percobaan</h3>
+<ol>
+  <li>Buka aplikasi Visual Studio Code.</li>
+  <li>Buat file baru dengan nama <b>index.html</b>.</li>
+  <li>Ketikkan struktur dasar HTML berikut:</li>
+</ol>
 
-<h1>This is heading 1</h1>
-<h2>This is heading 2</h2>
-<h3>This is heading 3</h3>
-<h4>This is heading 4</h4>
-<h5>This is heading 5</h5>
-<h6>This is heading 6</h6>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Halaman Pertama Saya&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Selamat Datang&lt;/h1&gt;
+  &lt;p&gt;Ini adalah halaman web pertama saya.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
-<p><b>3.2 Paragraf HTML</b></p>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+<ol start="4">
+  <li>Simpan file tersebut dan buka menggunakan browser.</li>
+  <li>Perhatikan hasilnya dan identifikasi bagian-bagian dari struktur HTML.</li>
+</ol>
 
-<p><b>3.3 HTML Link</b></p>
-<a href="https://www.w3schools.com">This is a link to W3Schools</a>
+<h3>4. Tugas</h3>
+<ol>
+  <li>Buatlah halaman HTML yang berisi biodata singkatmu.</li>
+  <li>Gunakan elemen seperti <b>&lt;h1&gt;</b>, <b>&lt;p&gt;</b>, <b>&lt;img&gt;</b>, dan <b>&lt;a&gt;</b>.</li>
+  <li>Tampilkan hasilnya pada browser.</li>
+</ol>
 
-<p><b>3.4 HTML Image</b></p>
-<img src="logo-pens.png" width="70"><br>
-<i>Politeknik Elektronika Negeri Surabaya</i>
-
-<p><b>3.5 Garis Horizontal</b></p>
-<hr>
-<p>This is a paragraph.</p>
+<h3>5. Penutup</h3>
+<p>Pada praktikum ini peserta didik telah mempelajari dasar-dasar HTML untuk membuat struktur halaman web sederhana. Penguasaan HTML menjadi langkah awal sebelum melanjutkan ke pemrograman web yang lebih kompleks seperti CSS dan JavaScript.</p>
 
 </body>
 </html>
