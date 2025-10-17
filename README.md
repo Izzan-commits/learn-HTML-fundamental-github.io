@@ -1,3 +1,3 @@
 # learn-HTML-fundamental
 Tugas praktikum0 pemrograman html
-Dikerjakan oleh ikan always selalu
+Dikerjakan oleh ijan always selalu
